@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="mall.css" type="text/css">
+    </head>
+
+    <body>
+        
+        <!--this is the main picture-->
+        <img id="mainPic"  src="Hotel2%20copy.jpg" alt="hotelRoom">
+        
+        <!--nav-->
+        <header>
+        <nav>
+        <li ><a href="index.html" >Hem</a></li>
+        <li><a href="hitta.html">Hitta</a></li>
+        <li class="selected"><a href=boka.html>Boka</a></li>
+        <li><a href="kontakta.html">Kontakta</a></li>
+        <li><a href="uppleva.html">Uppleva</a></li>
+        </nav>
+        </header>
+        
+        <h1 id="Babylon"><a href="index.html">BABYLON HOTEL</a></h1>
+        
+        <div id="contain-boka">
+            <h1>Boka</h1>
+            
+            <div id="hotelrum">
+            <h2 class="underrubrik">Boka hotelrum</h2>
+            <p>Namn:</p>
+            <input type="text" name="namn">
+            <br>
+            <p>Personnummer:</p>
+            <input type="text" name="personnummer">
+            <br>
+            <p>Telefonnummer:</p>
+            <input type="text" name="telefonnummer">
+            <br>
+            <p>Epostadress:</p>
+            <input type="text" name="Epostadress">
+            <br>
+                <div class="mellanrum"></div>
+            <font>antal rum:</font>
+                <select name="rooms">
+                    <option value="1">1</option>
+                    <option value="2">2</option><option value="3">3</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            <br>
+            <font>Personer per rum:</font>
+            <select name="persons">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+		</select>
+                <br>
+                 <div class="mellanrum"></div>
+                <input  type="submit" value="Boka rum">
+                <input type="reset" value="återställ">
+                <img src="Hotel1photoshop.jpg" alt="rum" class="rk">
+            </div>
+            <div id="mellan"></div>
+            <div id="lokal">
+            <h2 class="underrubrik">Boka konferenslokal</h2>
+            <p>Företagsnamn:</p>
+            <input type="text" name="namn">
+            <br>
+            <p>Organisations/personnummer:</p>
+            <input type="text" name="personnummer">
+            <br>
+            <p>Telefonnummer:</p>
+            <input type="text" name="telefonnummer">
+            <br>
+            <p>Epostadress:</p>
+            <input type="text" name="Epostadress">
+            <br>
+             <div class="mellanrum"></div>
+                <font>Datum: Antal timmar:</font>
+            <select name="persons">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+		</select> 
+                  <br>
+            <font>Från klockan:</font>
+            <select name="from">
+                <option value="07">07:00</option>
+                <option value="08">08:00</option>
+                <option value="09">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+		</select>
+                <br>
+                <font>Välj antal personer:</font>
+                <select name="size">
+                    <option value="5">Upp till  5 personer</option>
+                    <option value="10">Upp till 10 personer</option>
+                    <option value="20">Upp till 20 personer</option>
+                    <option value="30">Upp till 30 personer</option>
+                    <option value="40">Upp till 40 personer</option>
+                    <option value="60">Upp till 60 personer</option>
+		</select>
+                 <br>
+                <input  type="submit" value="Boka lokal">
+                <input type="reset" value="återställ">
+                <img src="konferensphotoshop.jpg" alt="konferens" class="rk">
+            </div>
+            
+            <p id="boka-sista-p"><a>Kontakta oss</a> för större eller skräddarsydda bokningar!</p>
+            
+        </div>
+        <footer>
+            <p>Malmö, Elite Hotel Savoy Malmö, Ring oss: 0721887994</p>
+        </footer>
+        
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow20.js"></script>
+        <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+        
+    </body>
+</html>

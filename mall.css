@@ -1,0 +1,392 @@
+body{
+    align-items: center;
+}
+#mainPic{
+    max-width:102%;
+    margin: -1%;
+    margin-top: -3%;
+    position: fixed;
+    z-index: -1;
+}
+header{
+    text-align: center;
+    padding-bottom: 15%
+}
+nav li{
+    list-style-type: none;
+    display:inline-block;
+    margin: 3%;
+    font-size: 200%;
+    font-family:  serif;
+    text-shadow: 0px 2px 4px rgba(34,62,66,1);
+    padding: 1%;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+nav li:hover{
+    border: 1px solid white;
+}
+nav li.selected{
+    border: 1px solid white;
+}
+
+#Babylon{
+    color: white;
+    font-family:  serif;
+    text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+    text-align: center;
+    font-size: 80px;
+    width: 100%;
+}
+#Babylon a{
+    color: white;
+    text-decoration: none;
+}
+#Babylon a:hover{
+    text-shadow: 5px 5px black;
+}
+#contain{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 930px;
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
+#hitta-contain{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 700px;
+    margin-top: 20%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
+div h1{
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    color:aqua;
+}
+div p{
+    font-family: serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    color: lightgray;
+}
+#left{
+    float: left;
+    width: 35%;
+    height: 200px;
+    text-align: left;
+    margin-left: 14%;
+}
+#right{
+    float: right;
+    width: 35%;
+    height: 200px;
+    text-align: left;
+    margin-right: 11%;
+}
+#boka{
+    width: 75%;
+    text-align: center;
+    height: 400px;
+    margin-top: 20%;
+    margin-left: 14%;
+}
+.underrubrik{
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+}
+#boka p, ul{
+    text-align: left;
+    font-family:  serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    color: lightgray;
+}
+
+#tjanster p{
+    text-align: center;
+    font-size: 35px;
+}
+#tjanster .t{
+    font-size: 25px;
+}
+#tjanster .t:hover{
+    color: aqua;
+}
+iframe{
+    width: 60%;
+    height: 450px;
+    margin-left: 20%;
+    
+}
+#tom{
+    width: 100%;
+    height: 90px;
+}
+
+div p #index-boka{
+    color: aqua;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    margin-top: 2%;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    color: lightgray;
+    
+}
+#hotelrum{
+    width: 49%;
+    height: 600px;
+    float: left;
+    display: inline-block;
+    margin-left: 1%;
+}
+#lokal{
+    width: 48%;
+    height: 600px;
+    float: right;
+    display: inline-block;
+    margin-left: 1%
+}
+#mellan{
+    width: 1%;
+    height: 600px;
+    background-color: aqua;
+    
+    display: inline-block;
+}
+
+font{
+     font-family: serif;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+    color: lightgray;
+    margin-top: 5%;
+}
+.mellanrum{
+    width: 100%;
+    height: 30px;
+    float: right;
+    display: inline-block;
+}
+#left a{
+    color: lightgray;
+    text-decoration: none;
+}
+#left a:hover{
+    color:aqua;
+}
+
+#Kontakta{
+    margin-left: 5%;
+}
+#contain-boka{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 800px;
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
+#contain-kontakta{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 800px;
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
+.rk{
+    width: 50%;
+    float: right;
+    z-index: -1;
+    margin-top: -75%;
+    margin-right: 2%;
+}
+#kontakt-bild{
+    float: right;
+    margin-top: -30%;
+    margin-right: 5%;
+}
+
+
+
+
+
+@media(max-width:1100px){
+    #contain{
+        width: 111%;
+        margin-left: -10%;
+        border-radius: 0;
+        background-color: white;
+        height: 1000px;
+    }
+    #boka p, tjanster p, div p, div ul{
+        color: black;
+    }
+    #left{
+        width: 90%;
+        margin-left: 9%;
+    }
+    #right{
+        float: left;
+        margin-left: 40%;
+    }
+    
+    footer{
+        margin-top: -1%;
+        width: 111%;
+        margin-left: -10%;
+        background-color: white;
+        color: black;
+        padding-top: 8%;
+        
+    }
+    #hitta-contain{
+       width: 111%;
+        margin-left: -10%;
+        border-radius: 0;
+        background-color: white;
+        height: 1000px;  
+    }
+    
+    #hotelrum{
+        text-align: center; 
+    }
+    #lokal{
+        text-align: center;
+    }
+    #boka-sista-p{
+        text-align: center;
+    }
+    #contain-boka{
+       width: 111%;
+        margin-left: -10%;
+        border-radius: 0;
+        background-color: white;
+        height: 750px; 
+    }
+    #contain-kontakta{
+       width: 111%;
+        margin-left: -10%;
+        border-radius: 0;
+        background-color: white;
+        height: 750px; 
+        text-align: left;
+    }
+    #Kontakta{
+        margin-left: 10%;
+    }
+    .rk{
+        width: 0%;
+       
+    }
+    #kontakt-bild{
+        width:0%;
+    }
+}
+
+
+@media(max-width:430px){
+    #mainPic{
+        max-width: 520px;
+        height: 600px;
+        margin-left:-30%;
+    }
+    #Babylon{
+        font-size: 50px;
+    }
+    nav li{
+        margin: 1%;
+        font-size: 30px;
+    }
+    #contain{
+        margin-top: 50%;
+        width: 105%;
+        border-radius: 0%;
+        margin-left: -3%;
+        background-color: white;
+        height: 1600px;
+    }
+    #boka p, tjanster p, div p, div ul{
+        color: black;
+    }
+    #right,#left{
+        float: none;
+        width: 85%;
+        margin: 8%;
+        margin-top: 10%;
+        display: inline-block;
+        text-align: center;
+    }
+    footer{
+       background-color: white;
+        color: black;
+        padding-bottom: 8%;
+        border: 2px solid black;
+    }
+    iframe{
+        width: 80%;
+        margin-left: 13%;
+    }
+    #hitta-contain{
+        height: 700px;
+    }
+    #mainPic{
+        max-width: 510px;
+    }
+    #mellan{
+        width: 0%;
+    }
+    #hotelrum{
+        width: 100%;
+        text-align: center;
+        height: 150px;
+    }
+    #lokal{
+        width: 100%;
+        text-align: center;
+    }
+    #contain-boka{
+        margin-top: 50%;
+        width: 105%;
+        border-radius: 0%;
+        margin-left: -3%;
+        background-color: white;
+        height: 1600px;
+    }
+    #contain-kontakta{
+        margin-top: 50%;
+        width: 105%;
+        border-radius: 0%;
+        margin-left: -3%;
+        background-color: white;
+        height: 750px;
+        text-align: center;
+    }
+    #Kontakta{
+        margin-left: 2%;
+    }
+    #tom{
+        height: 0%;
+    }
+}
+
+
