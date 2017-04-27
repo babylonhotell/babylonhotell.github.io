@@ -24,10 +24,14 @@
         
         <h1 id="Babylon"><a href="index.html">BABYLON HOTEL</a></h1>
         
-        <div id="contain">
+        <div id="contain-uppleva">
             <h1>Välkommen till Bright Hotell!</h1>
             <p style="text-align: center">Det här är några bilder som handlar om vårt hotell</p>
-            
+        <div id="uppleva-img">   
+        <img class="mySlides" src="turingtorso.jpeg" style="width:80%">
+        <img class="mySlides"  src="sweden.jpg" style="width:80%">
+        <img class="mySlides" src="sweden2.jpg" style="width:80%">
+        </div> 
             
            
         </div>
@@ -38,6 +42,27 @@
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow20.js"></script>
         <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+        
+        <script>
+         var slideIndex = 0;
+                carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 10000); // Change image every 2 seconds
+    }
+            
+        
+        </script>
+        
+        
         
     </body>
 </html>

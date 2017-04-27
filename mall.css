@@ -226,8 +226,19 @@ font{
     margin-right: 5%;
 }
 
+#uppleva-img{
+    
+    margin-left: 18%;
+}
 
-
+#contain-uppleva{
+    background-color: rgba(0,0,0,0.7);
+    width: 90%;
+    height: 850px;
+    margin-top: 25%;
+    margin-left: 5%;
+    border-radius: 2%;
+}
 
 
 @media(max-width:1100px){
@@ -300,6 +311,14 @@ font{
     }
     #kontakt-bild{
         width:0%;
+    }
+    
+    #contain-uppleva{
+        width: 111%;
+        margin-left: -10%;
+        border-radius: 0;
+        background-color: white;
+        height: 700px;
     }
 }
 
@@ -386,6 +405,15 @@ font{
     }
     #tom{
         height: 0%;
+    }
+   
+    #contain-uppleva{
+        margin-top: 50%;
+        width: 105%;
+        border-radius: 0%;
+        margin-left: -3%;
+        background-color: white;
+        height: 600px;
     }
 }
 
