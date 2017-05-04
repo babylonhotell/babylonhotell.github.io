@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Hotel</title>
+        <meta viewport.... >
         <meta charset="utf-8">
         <link rel="stylesheet" href="mall.css" type="text/css">
     </head>
@@ -13,20 +14,21 @@
         
         <!--nav-->
         <header>
-        <nav>
+        <nav class="nav">
+            <ul>
         <li><a href="index.html" >Hem</a></li>
         <li><a href="hitta.html">Hitta</a></li>
         <li><a href="boka.html">Boka</a></li>
         <li><a href="kontakta.html">Kontakta</a></li>
         <li class="selected"><a href="uppleva.html">Uppleva</a></li>
+                </ul>
         </nav>
         </header>
         
-        <h1 id="Babylon"><a href="index.html">BABYLON HOTEL</a></h1>
+        
         
         <div id="contain-uppleva">
             <h1>Välkommen till Bright Hotell!</h1>
-            <p style="text-align: center">Det här är några bilder som handlar om vårt hotell</p>
         <div id="uppleva-img">   
         <img class="mySlides" src="turingtorso.jpeg" style="width:80%">
         <img class="mySlides"  src="sweden.jpg" style="width:80%">
@@ -56,7 +58,7 @@
         slideIndex++;
         if (slideIndex > x.length) {slideIndex = 1} 
         x[slideIndex-1].style.display = "block"; 
-        setTimeout(carousel, 10000); // Change image every 2 seconds
+        setTimeout(carousel, 2000); // Change image every 2 seconds
     }
             
         
