@@ -358,11 +358,10 @@ font{
 }
 
 
-@media(max-width:430px){
+@media(max-width:500px){
     #mainPic{
-        max-width: 520px;
+        width: 100%;
         height: 600px;
-        margin-left:-30%;
     }
     #Babylon{
         font-size: 50px;
