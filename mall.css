@@ -321,6 +321,7 @@ font{
     }
     #boka-sista-p{
         text-align: center;
+        margin-top: 650px;
     }
     #contain-boka{
        width: 111%;
@@ -391,7 +392,7 @@ font{
         border-radius: 0%;
         margin-left: -3%;
         background-color: white;
-        height: 1600px;
+        height: 1650px;
     }
     #boka p, tjanster p, div p, div ul{
         color: black;
@@ -409,6 +410,11 @@ font{
         color: black;
         padding-bottom: 8%;
         border: 2px solid black;
+        width: 90%;
+        margin-left: 3%;
+        
+       
+        text-align: center;
     }
     iframe{
         width: 80%;
@@ -444,6 +450,7 @@ font{
         background-color: white;
         height: 1600px;
     }
+   
     #contain-kontakta{
         margin-top: 10%;
         width: 105%;
