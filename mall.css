@@ -321,6 +321,7 @@ font{
     }
     #boka-sista-p{
         text-align: center;
+        display: none;
         
     }
     #contain-boka{
@@ -478,6 +479,9 @@ font{
         height: 600px;
     }
     #boka-sista-p{
+        display: none;
+    }
+    #sjanster{
         display: none;
     }
 }
