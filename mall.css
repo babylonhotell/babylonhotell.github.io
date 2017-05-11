@@ -357,10 +357,13 @@ font{
         background-color: white;
         height: 700px;
     }
+    #sjanster{
+        display: none;
+    }
 }
 
 
-@media(max-width:600px){
+@media(max-width:500px){
     #mainPic{
         width: 100%;
         height: 600px;
