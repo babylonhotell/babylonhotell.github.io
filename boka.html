@@ -10,26 +10,25 @@
     <body>
         
         <!--this is the main picture-->
-        <img id="mainPic"  src="Hotel2%20copy.jpg" alt="hotelRoom">
+       
         
-        <!--nav-->
+        
         <header>
-        <nav class="nav">
-            <ul>
-        <li ><a href="index.html">Hem</a></li>
-        <li><a href="hitta.html">Hitta</a></li>
-        <li class="selected"><a href=boka.html>Boka</a></li>
-        <li><a href="kontakta.html">Kontakta</a></li>
-        <li><a href="uppleva.html">Uppleva</a></li>
-                </ul>
-        </nav>
+         <div class="topnav" id="myTopnav">
+      <a href="index.html">Hem</a>
+      <a href="boka.html" class="selected">Boka</a>
+      <a href="kontakta.html">Kontakta</a>
+      <a href="hitta.html">Hitta</a>
+      <a href="uppleva.html">Uppleva</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
         </header>
         
         
         
-        <div id="contain-boka">
-            <h1>Boka</h1>
+        <div class="andra-contain">
             
+            <h1 class="rubrik">Boka</h1>
             <div id="hotelrum">
             <h2 class="underrubrik">Boka hotelrum</h2>
             <p>Namn:</p>
@@ -72,7 +71,6 @@
                  <div class="mellanrum"></div>
                 <input  type="submit" value="Boka rum">
                 <input type="reset" value="återställ">
-                <img src="Hotel1photoshop.jpg" alt="rum" class="rk">
             </div>
             <div id="mellan"></div>
             <div id="lokal">
@@ -128,24 +126,30 @@
                  <br>
                 <input  type="submit" value="Boka lokal">
                 <input type="reset" value="återställ">
-                <img src="konferensphotoshop.jpg" alt="konferens" class="rk">
             </div>
             
             
-            <p id="boka-sista-p"><a>Kontakta oss</a> för större eller skräddarsydda bokningar!</p>
+            <p id="boka-sista-p"><a href="kontakta.html" id="kontakta-boka">Kontakta oss</a> för större eller skräddarsydda bokningar!</p>
             
         </div>
-        <footer>
-            <div id="footer-div">
+       <footer>
             <p>Malmö, Babylon hotell Savoy Malmö, Ring oss: 0721887994</p>
-                </div>
         </footer>
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow20.js"></script>
         <noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+                    <script>
+        function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
         
-        
+        </script>
         
     </body>
 </html>
