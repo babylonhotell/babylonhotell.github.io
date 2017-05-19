@@ -84,7 +84,7 @@ header{
 #contain-k{
     background-color: rgba(0,0,0,0.7);
     width: 90%;
-    margin-top: 5%;
+    margin-top: -10%;
     margin-left: 5%;
     border-radius: 2%;
     padding-top: 1%;
@@ -179,34 +179,27 @@ div p #index-boka{
 }
 #hotelrum{
     width: 45%;
-    height: 600px;
+    float: left;
     text-align: center;
-    display: inline-block;
-    margin-left: 1%;
+    
 }
 #lokal{
     width: 45%;
-    height: 600px;
+    float: right;
     text-align: center;
-    display: inline-block;
-    margin-left: 1%
+    margin-right: 2%;
+    
 }
 #mellan{
     width: 1%;
-    height: 600px;
+    height: 730px;
     background-color: aqua;
-    
     display: inline-block;
+    margin-left: 4%;
+    margin-top: 5%
 }
 
-font{
-     font-family: serif;
-    font-size: 20px;
-    line-height: 1.6;
-    letter-spacing: 0px;
-    color: lightgray;
-    margin-top: 5%;
-}
+
 .mellanrum{
     width: 100%;
     height: 30px;
@@ -302,6 +295,7 @@ footer{
   .topnav a.icon {
     float: right;
     display: block;
+    font-size: 25px;
   }
     .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
@@ -411,10 +405,13 @@ footer{
         width: 100%;
         text-align: center;
         height: 150px;
+        padding-bottom: 150%;
     }
     #lokal{
         width: 100%;
         text-align: center;
+        padding-bottom: 5%;
+        
     }
     
    
