@@ -313,11 +313,10 @@ footer{
     }
     #boka{
         margin-top: -10%;
-        padding-bottom: 20%;
+        padding-bottom: 30%;
     }
+    
 }
-
-
 
 
 
@@ -377,7 +376,9 @@ footer{
         text-align: center;
         padding-bottom: 3%;
     }
-
+    #boka{
+        display: none;
+    }
 
     #boka p, tjanster p, div p, div ul{
         color: black;
